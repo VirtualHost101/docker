@@ -1,0 +1,8 @@
+-e is used to pass enivoriments in docker example : -e MYSQL_ROOT_PASSWORD:mysecret
+-d = detached mode
+-t = interactive mode
+--link is used to link the containers
+--link is a depreated command. Latest verison of docker uses compose
+
+docker compose -f abc.yml up -d { compose up custome files }
+
